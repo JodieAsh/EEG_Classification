@@ -26,4 +26,5 @@ EEG_generate_training_matrix.gen_training_matrix(file_path, cols_to_ignore=-1, o
 # TODO change this to the file path where your training matrix is and name clf_output_file
 training_path = r"D:\Documents\University\Code Projects\EEG_Classification\example_training_matrix.csv"
 Build_and_test_classifier.build_classifier(training_path, test_size=0.2, clf_output_file="Random_Forest_Classifier")
-# Note accuracy is output as it is calculated in 'Build_and_test_classifier.classification_accuracy()'
+# Note accuracy is output as it is calculated in
+# 'Build_and_test_classifier.build_classifier() - # Predict on the testing data'
